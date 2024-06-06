@@ -1,9 +1,3 @@
-# l, r = map(int, input().split())
-# ask = []
-# for i in range(l, r + 1):
-#     if i == int(str(i)[0]) * int('1' * len(str(i))):
-#         ask.append(i)
-# print(len(ask))
 l, r = map(int, input().split())
 ask = set()
 for i in range(len(str(r))):

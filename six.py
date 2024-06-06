@@ -1,37 +1,19 @@
 one_string = int(input())
 two_string = list(map(int, input().split()))
-ask = []
-for c, x in enumerate(two_string, start=1):
-    if len(ask) < 2:
-        if c % 2 != 0 and x % 2 == 0:
-            for l, y in enumerate(two_string[c:], start=1):
-                if y % 2 != 0 and (l + c) % 2 == 0:
-                    two_string[c - 1] = y
-                    two_string[l + c - 1] = x
-                    ask.append([c, l + c])
-                    break
-                else:
-                    continue
-        elif c % 2 == 0 and x % 2 != 0:
-            for l, y in enumerate(two_string[c:], start=1):
-                if y % 2 == 0 and (l + c) % 2 != 0:
-                    two_string[c - 1] = y
-                    two_string[l + c - 1] = x
-                    ask.append([c, l + c])
-                    break
-                else:
-                    continue
-    else:
-        break
-
-if 0 < len(ask) < 2:
-    i = ask[0][0]
-    j = ask[0][1]
-else:
-    i = -1
-    j = -1
+list_i = []
+list_j = []
+i = -1
+j = -1
+for c, u in enumerate(two_string, start=1):
+    if c % 2 != u % 2:
+        if u % 2 == 0:
+            list_i.append(c)
+        elif u % 2 != 0:
+            list_j.append(c)
+if len(list_j) == 1 and len(list_i) == 1:
+    i = list_i[0]
+    j = list_j[0]
+elif len(list_j) == 0 and 0 == len(list_i):
+    if one_string >= 3:
+        i, j = 1, 3
 print(i, j)
-# print((ask[0][0],ask[0][1]) if ask[0] and len(ask) < 2 else (-1, -1)) #'-1 -1'
-# print(' '.join(str(i) for i in ask[0])if len(ask) < 2 else '-1 -1')
-print(ask)
-print(two_string)

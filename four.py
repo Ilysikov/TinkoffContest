@@ -30,13 +30,4 @@ elif my_len > 1:
                     print(one_str[1])
                     one_str[1] -= 1
 
-print(my_sum)  # if my_str else 0)
-# print(my_str)
-# print(sum(two_str))
-# print(sum(my_str))
-# print(sum(my_str)-sum(two_str))
-# print(sorted(my_str))
-# print(sorted(two_str))
-# print(len(my_str))
-# print(len(''.join([str(i) for  i in my_str])))
-# print(len(''.join([str(i) for  i in two_str])))
+print(my_sum)
