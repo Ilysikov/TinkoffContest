@@ -25,9 +25,6 @@ elif my_len > 1:
             for s in t:
                 if one_str[1]:
                     my_sum += (9 - s[0]) * (10 ** (my_len - c - 1))
-                    print(my_str[s[1]])
-                    print(my_str[s[1]] +(9 - s[0]) * (10 ** (my_len - c - 1)))
-                    print(one_str[1])
                     one_str[1] -= 1
 
 print(my_sum)
