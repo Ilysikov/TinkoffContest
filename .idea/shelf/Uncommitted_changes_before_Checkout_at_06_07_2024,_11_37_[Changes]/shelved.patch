@@ -1,0 +1,14 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/bad_yandex_four/yandex_four_final.py\n
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	
++++ b/.gitignore	
+@@ -1,1 +1,5 @@
+ /bad_yandex_four/yandex_four_final.py
++/litter/
++/bad_yandex_four/
++/bad_nine/
++/bad_eight/

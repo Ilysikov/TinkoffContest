@@ -1,0 +1,160 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9717e81d-8a99-492a-84cc-ca67f2c00bab\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/pythonProject9.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/runConfigurations/Unittests.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/runConfigurations/_template__of_Unittests.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/eight.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/five.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/four.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/fr.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/nine_.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/one_.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/seven.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/seven_one.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/six.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/ten.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/tests/test_eight.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/tests/test_nine.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/three.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/tvelve_.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/two.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"groupByToolId\" value=\"true\" />\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n    <option name=\"showPreview\" value=\"true\" />\n    <option name=\"sortByName\" value=\"true\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2f2jKiM4voelibFhzBa747M6pcM\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Python tests.Python tests in test_eight.py.executor\": \"Run\",\n    \"Python tests.Unitest.executor\": \"Debug\",\n    \"Python tests.Unitests.executor\": \"Run\",\n    \"Python tests.Unittests for .executor\": \"Run\",\n    \"Python tests.Unittests in /.executor\": \"Run\",\n    \"Python tests.Unittests.executor\": \"Run\",\n    \"Python._seven.executor\": \"Run\",\n    \"Python.chernovik.executor\": \"Run\",\n    \"Python.eight.executor\": \"Run\",\n    \"Python.five.executor\": \"Run\",\n    \"Python.four.executor\": \"Run\",\n    \"Python.fr.executor\": \"Run\",\n    \"Python.kvazi_six.executor\": \"Run\",\n    \"Python.nine_.executor\": \"Run\",\n    \"Python.one_.executor\": \"Run\",\n    \"Python.psevdo_six.executor\": \"Run\",\n    \"Python.seven.executor\": \"Run\",\n    \"Python.seven2.executor\": \"Run\",\n    \"Python.seven_one.executor\": \"Run\",\n    \"Python.six.executor\": \"Run\",\n    \"Python.ten.executor\": \"Run\",\n    \"Python.three.executor\": \"Run\",\n    \"Python.tvelve_.executor\": \"Run\",\n    \"Python.two.executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"deletionFromPopupRequiresConfirmation\": \"false\",\n    \"git-widget-placeholder\": \"master\",\n    \"last_opened_file_path\": \"/Users/ivanlysikov/PycharmProjects/pythonProject9\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\n      <module name=\"pythonProject9\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"SDK_NAME\" value=\"Python 3.11 (pythonProject9)\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"net.ashald.envfile\">\n        <option name=\"IS_ENABLED\" value=\"false\" />\n        <option name=\"IS_SUBST\" value=\"false\" />\n        <option name=\"IS_PATH_MACRO_SUPPORTED\" value=\"false\" />\n        <option name=\"IS_IGNORE_MISSING_FILES\" value=\"false\" />\n        <option name=\"IS_ENABLE_EXPERIMENTAL_INTEGRATIONS\" value=\"false\" />\n        <ENTRIES>\n          <ENTRY IS_ENABLED=\"true\" PARSER=\"runconfig\" IS_EXECUTABLE=\"false\" />\n        </ENTRIES>\n      </EXTENSION>\n      <option name=\"SCRIPT_NAME\" value=\"\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"nine_\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pythonProject9\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/nine_.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"one_\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pythonProject9\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"net.ashald.envfile\">\n        <option name=\"IS_ENABLED\" value=\"false\" />\n        <option name=\"IS_SUBST\" value=\"false\" />\n        <option name=\"IS_PATH_MACRO_SUPPORTED\" value=\"false\" />\n        <option name=\"IS_IGNORE_MISSING_FILES\" value=\"false\" />\n        <option name=\"IS_ENABLE_EXPERIMENTAL_INTEGRATIONS\" value=\"false\" />\n        <ENTRIES>\n          <ENTRY IS_ENABLED=\"true\" PARSER=\"runconfig\" IS_EXECUTABLE=\"false\" />\n        </ENTRIES>\n      </EXTENSION>\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/one_.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Unittests\" type=\"tests\" factoryName=\"Autodetect\">\n      <module name=\"pythonProject9\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <EXTENSION ID=\"net.ashald.envfile\">\n        <option name=\"IS_ENABLED\" value=\"false\" />\n        <option name=\"IS_SUBST\" value=\"false\" />\n        <option name=\"IS_PATH_MACRO_SUPPORTED\" value=\"false\" />\n        <option name=\"IS_IGNORE_MISSING_FILES\" value=\"false\" />\n        <option name=\"IS_ENABLE_EXPERIMENTAL_INTEGRATIONS\" value=\"false\" />\n        <ENTRIES>\n          <ENTRY IS_ENABLED=\"true\" PARSER=\"runconfig\" IS_EXECUTABLE=\"false\" />\n        </ENTRIES>\n      </EXTENSION>\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/tests&quot;\" />\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Python.nine_\" />\n      <item itemvalue=\"Python.one_\" />\n      <item itemvalue=\"Python tests.Unittests\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.nine_\" />\n        <item itemvalue=\"Python.one_\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9717e81d-8a99-492a-84cc-ca67f2c00bab\" name=\"Changes\" comment=\"\" />\n      <created>1713006006257</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1713006006257</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/eight.py</url>\n          <line>23</line>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n      </breakpoints>\n      <default-breakpoints>\n        <breakpoint type=\"python-exception\">\n          <properties notifyOnTerminate=\"true\" exception=\"BaseException\">\n            <option name=\"notifyOnTerminate\" value=\"true\" />\n          </properties>\n        </breakpoint>\n      </default-breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision faf508375dce1ac11e4dfdeb49dc71e6521c6446)
++++ b/.idea/workspace.xml	(date 1720253686033)
+@@ -4,38 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject9.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Unittests.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Unittests.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/eight.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/five.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/four.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fr.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/nine_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/one_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seven.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seven_one.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/six.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ten.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tests/test_eight.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tests/test_nine.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/three.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tvelve_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/two.py" afterDir="false" />
+-    </list>
++    <list default="true" id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="Jule" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master_cap" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProblemsViewState">
+@@ -53,40 +33,40 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python tests.Python tests in test_eight.py.executor": "Run",
+-    "Python tests.Unitest.executor": "Debug",
+-    "Python tests.Unitests.executor": "Run",
+-    "Python tests.Unittests for .executor": "Run",
+-    "Python tests.Unittests in /.executor": "Run",
+-    "Python tests.Unittests.executor": "Run",
+-    "Python._seven.executor": "Run",
+-    "Python.chernovik.executor": "Run",
+-    "Python.eight.executor": "Run",
+-    "Python.five.executor": "Run",
+-    "Python.four.executor": "Run",
+-    "Python.fr.executor": "Run",
+-    "Python.kvazi_six.executor": "Run",
+-    "Python.nine_.executor": "Run",
+-    "Python.one_.executor": "Run",
+-    "Python.psevdo_six.executor": "Run",
+-    "Python.seven.executor": "Run",
+-    "Python.seven2.executor": "Run",
+-    "Python.seven_one.executor": "Run",
+-    "Python.six.executor": "Run",
+-    "Python.ten.executor": "Run",
+-    "Python.three.executor": "Run",
+-    "Python.tvelve_.executor": "Run",
+-    "Python.two.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "deletionFromPopupRequiresConfirmation": "false",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "/Users/ivanlysikov/PycharmProjects/pythonProject9"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python tests.Python tests in test_eight.py.executor&quot;: &quot;Run&quot;,
++    &quot;Python tests.Unitest.executor&quot;: &quot;Debug&quot;,
++    &quot;Python tests.Unitests.executor&quot;: &quot;Run&quot;,
++    &quot;Python tests.Unittests for .executor&quot;: &quot;Run&quot;,
++    &quot;Python tests.Unittests in /.executor&quot;: &quot;Run&quot;,
++    &quot;Python tests.Unittests.executor&quot;: &quot;Run&quot;,
++    &quot;Python._seven.executor&quot;: &quot;Run&quot;,
++    &quot;Python.chernovik.executor&quot;: &quot;Run&quot;,
++    &quot;Python.eight.executor&quot;: &quot;Run&quot;,
++    &quot;Python.five.executor&quot;: &quot;Run&quot;,
++    &quot;Python.four.executor&quot;: &quot;Run&quot;,
++    &quot;Python.fr.executor&quot;: &quot;Run&quot;,
++    &quot;Python.kvazi_six.executor&quot;: &quot;Run&quot;,
++    &quot;Python.nine_.executor&quot;: &quot;Run&quot;,
++    &quot;Python.one_.executor&quot;: &quot;Run&quot;,
++    &quot;Python.psevdo_six.executor&quot;: &quot;Run&quot;,
++    &quot;Python.seven.executor&quot;: &quot;Run&quot;,
++    &quot;Python.seven2.executor&quot;: &quot;Run&quot;,
++    &quot;Python.seven_one.executor&quot;: &quot;Run&quot;,
++    &quot;Python.six.executor&quot;: &quot;Run&quot;,
++    &quot;Python.ten.executor&quot;: &quot;Run&quot;,
++    &quot;Python.three.executor&quot;: &quot;Run&quot;,
++    &quot;Python.tvelve_.executor&quot;: &quot;Run&quot;,
++    &quot;Python.two.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/ivanlysikov/PycharmProjects/pythonProject9&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$" />
+@@ -95,7 +75,7 @@
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Python.nine_">
+     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+       <module name="pythonProject9" />
+       <option name="ENV_FILES" value="" />
+@@ -236,7 +216,21 @@
+       <option name="presentableId" value="Default" />
+       <updated>1713006006257</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Jule">
++      <option name="closed" value="true" />
++      <created>1720253605216</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1720253605216</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="tink2" />
++    <MESSAGE value="Jule" />
++    <option name="LAST_COMMIT_MESSAGE" value="Jule" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

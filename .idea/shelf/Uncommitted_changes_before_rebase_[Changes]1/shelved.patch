@@ -1,0 +1,1054 @@
+Index: ten.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ten.py b/ten.py
+deleted file mode 100644
+--- a/ten.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,13 +0,0 @@
+-a=input()
+-b=input()
+-c=input()
+-one_s=list(map(int, a.split()))
+-two_s=list(map(int, b.split()))
+-three_s=int(c)
+-result=0
+-if three_s <= two_s[0] + one_s[1] or three_s >= two_s[-1] - one_s[1]:
+-    result = two_s[-1] - two_s[0]
+-elif three_s > two_s[0] + one_s[1] or three_s < two_s[-1] - one_s[1]:
+-    result = three_s * 2 + (two_s[-1] - three_s) if three_s <= two_s[-1] / 2 \
+-        else three_s + (two_s[-1] - three_s) * 2
+-print(result)
+\ No newline at end of file
+Index: kvazi_six.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/kvazi_six.py b/kvazi_six.py
+deleted file mode 100644
+--- a/kvazi_six.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,24 +0,0 @@
+-one_string = int(input())
+-two_string = list(map(int, input().split()))
+-list_i = []
+-list_j = []
+-i = -1
+-j = -1
+-for c, u in enumerate(two_string, start=1):
+-    if c % 2 != u % 2:
+-        if u % 2 == 0:
+-            list_i.append(c)
+-        elif u % 2 != 0:
+-            list_j.append(c)
+-if len(list_j) == 1 and len(list_i) == 1:
+-    i = list_i[0]
+-    j = list_j[0]
+-elif len(list_j) == 0 and 0 == len(list_i):
+-    if one_string >= 3:
+-        i, j = 1, 3
+-print(i, j)
+-#
+-# print(no)
+-# print(ch)
+-# print(list_i)
+-# print(list_j)
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: seven_one.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/seven_one.py b/seven_one.py
+deleted file mode 100644
+--- a/seven_one.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,40 +0,0 @@
+-n = int(input())
+-a = list(map(int, input().split()))
+-
+-
+-def bad_santa(n, a):
+-    two = [-1]
+-    one = [-1]
+-    ask = (-1, -1)
+-    for w in range(1, n + 1):
+-        if len(one) > 2 or len(two) > 2:
+-            return ask
+-        else:
+-            if w not in a:
+-                two.append(w)
+-            elif a.count(w) == 2:
+-                if a.index(w) == w - 1:
+-                    one.append(a.index(w) + 1)
+-                elif a.index(w) != w - 1:
+-                    one.append(a[a.index(w) + 1:].index(w) + 1)
+-            elif a.count(w) > 2:
+-                return ask
+-            elif a.count(w) == 1:
+-                continue
+-    if len(one) == 2 and len(two) == 2:
+-        a[one[-1] - 1] = two[-1]
+-        print(a)
+-        b = [a[0]]
+-        h = 0
+-        while n >= h:
+-            if b[0] != a[b[-1] - 1] and len(b) < n:
+-                b.append(a[b[-1] - 1])
+-            h += 1
+-            print(b)
+-        if sum(b) == sum(a):
+-            ask = (one[-1], two[-1])
+-            return ask
+-    return ask
+-
+-
+-print(bad_santa(n, a))
+Index: tvelve_.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tvelve_.py b/tvelve_.py
+deleted file mode 100644
+--- a/tvelve_.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,9 +0,0 @@
+-n = int(input())
+-a,b,c = map(int,input().split())
+-n_my = n - 1
+-my_list = [a, b, c]
+-res = [i for i in my_list if i <= n_my]
+-for l in res:
+-    for o in [g + l for g in my_list if g + l <= n_my]:
+-        res.append(o)
+-print(len(set(res)) + 1)
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject9.iml" filepath="$PROJECT_DIR$/.idea/pythonProject9.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Black">
+-    <option name="sdkName" value="Python 3.11 (pythonProject9)" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (pythonProject9)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: fr.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fr.py b/fr.py
+deleted file mode 100644
+--- a/fr.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,7 +0,0 @@
+-one_str = list(map(str, input().split()))
+-# two_str = list(map(str, input().split()))
+-# # 2097152 9 40353607 1 3 0 7776 1953125 1 4096 36 6 4 1 117649 81 9 0 1 117649 49 625 0 243 0 64 4 262144 36 262144 40353607 256 0 4096 5 1 1 729 1 625 36 117649 1 1 262144 1 4782969 4096 16 1 0 134217728 0 25 8 1 729 117649 512 78125 4782969 6561 78125 729 2187 1024 4 7776 6561 1296 1 2 0 6 1 7776 1 5764801 117649 1296 0 6 25 81 40353607 27 0 134217728 2401 1679616 7 1 1 65536 729 729 0 43046721 0 512 0 25 27 1 7776 1 81 3 117649 1 40353607 64 1 390625 512 65536 32 262144 5 16807 2 6 5764801 1 729 16 0 0 16807 1 387420489 64 531441 32768 216 0 6 16 0 7 0 25 729 2097152 1953125 59049 32768 1 256 1 2 256 1 0 16384 279936 1296 2 387420489 256 4 4 4096 1 1024 1 36 36 5764801 16807 256 6 6561 1679616 125 49 1 1 32768 2 16807 15625 4096 1 1 531441 1 1 0 0 0 117649 1 1 1 16 2 49 16 1679616 7 1 0 279936 81 32 81 1 15625 4096 81 1 8 125 6561 0 6 1679616 256 387420489 256 134217728 1 2187 262144 3125 1296 2401 216 19683 1679616 7 16807 8 512 4782969 625 0 36 0 4096 512 6561 262144 0 1 0 1 16777216 6561 0 1 256 279936 1 9 625 1679616 6 1024 8 1 5764801 5764801 1 134217728 1 25 0 1 64 1 1 256 16807 4096 1 387420489 1296 1679616 0 531441 4782969 4 16384 125 279936 216 1 1 64 1953125 81 1 6561 6 64 134217728 5764801 512 1 49 1296 64 343 7 128 1 0 0 64 5764801 59049 16 390625 36 16807 32768 0 7776 8 390625 243 9 1 1 81 823543 1 1 32768 1 729 78125 43046721 64 1 1 729 1953125 19683 128 512 9 16807 729 823543 4782969 0 2187 32 4782969 1 6561 4096 1 1296 40353607 279936 8 15625 256 1 243 1 81 27 9 16384 0 243 40353607 16777216 729 1 1 1 16 1 59049 1 1 64 0 10077696 16807 81 16384 4 1 0 64 0 19683 1679616 1 9 64 2 1 27 9 1 5764801 1024 1 262144 1 64 134217728 16 81 65536 4 46656 64 6 1953125 262144 16777216 25 78125 0 1 5 1 1679616 625 19683 729 16384 81 823543 243 1 1 262144 15625 4 512 390625 6561 8 9 125 16 0 2401 1 1 625 16777216 6561 512 81 81 40353607 387420489 2097152 0 0 1679616 1679616 128 40353607 1 4782969 0 512 1 1 279936 1679616 46656 390625 1 262144 343 1 531441 128 46656 2401 128 0 256 1 134217728 117649 387420489 1 729 1 256 125 0 2097152 16807 1024 823543 1 256 6 1 1 729 1 343 3125 5 40353607 1296 1 823543 6561 0 343 134217728 3125 1 5764801 0 81 32768 1296 0 390625 8 59049 9 81 1 1 81 2 40353607 0 625 0 1 46656 125 512 0 1 8 1 2 1 2097152 1 59049 16 1 4096 16 64 59049 1 1 81 387420489 0 512 8 6561 0 0 81 1 7 8 531441 16777216 0 49 8 216 1 1679616 4782969 1 3125 0 27 256 6 46656 1 134217728 1 8 1 32768 25 4 40353607 1 64 387420489 729 9 729 256 81 8 16384 1 0 1 4 1679616 729 1 3 6561 0 9 36 16 1296 390625 4096 3 0 823543 6 279936 125 1 5764801 3 8 16 1 64 1 0 512 0 1 1 531441 7776 0 1 256 78125 256 32768 823543 262144 1 729 43046721 4096 1 36 0 46656 49 1296 1296 1 262144 6 4 262144 46656 25 27 64 1679616 729 1 16807 25 1953125 0 32768 27 1 1 43046721 1024 1 1 262144 0 46656 243 64 243 7776 343 6561 823543 1953125 1 0 5 531441 134217728 9 1 8 625 256 0 10077696 216 1 3 43046721 27 2401 49 64 1 6561 0 531441 1953125 6561 16 4 1 243 16384 2401 125 0 32768 625 64 6 65536 16384 1 1 81 10077696 1 1953125 16 512 216 256 1 43046721 7776 5764801 2187 3125 2 78125 279936 2 512 1953125 32768 27 27 0 1296 1 1 16 1 65536 49 8 1953125 9 4 16384 16777216 1 6561 32768 46656 262144 4 0 32768 9 25 1 16384 117649 1 46656 7 216 0 59049 7776 128 0 16 1296 1 1 7776 64 7 1 0 387420489 531441 4 81 343 7 2 4 9 243 8 40353607 0 32 27 3125 64 729 6561 6561 128 4 134217728 10077696 4782969 64 1 0 1 256 729 2097152 6561 0 390625 40353607 2 216 49 4 1 5764801 1 64 823543 46656 10077696 117649 729 0 46656 16807 262144 134217728 1 1 531441 0 2 4 32768 64 5 1 16 2 8 1 65536 4 256 4096 0 81 1 0 3125 2 5764801 16 1 262144 8 16807 0 78125 64 16 262144 256 2 15625 81 256 117649 0 9 1 0 6561 1 134217728 3 390625 59049 5764801 6561 0 5 0 4 1 49 4 4 125 0 43046721 1 0 256 256 2097152 729 6 5764801 117649 343 1 6 262144 16 531441 32768 1 1 43046721 128 262144 59049 823543 1 243 46656 46656 4 1 81 3125 49 1 1 279936 262144 117649 5764801 40353607 1 7 65536 4782969 729 15625 1 1 1024 1 512 343 1296 512 1953125 65536 0 3 1 0 1 531441 32 64 1 32 0 6561 134217728 19683 1 1 19683 59049]
+-# 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 999999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 99999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 9999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 999999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 99999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+-#
+-# print(len(''.join(one_str)))
+-# print(len(''.join(two_str)))
+Index: _seven.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_seven.py b/_seven.py
+deleted file mode 100644
+--- a/_seven.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,41 +0,0 @@
+-n = int(input())
+-a_ = list(map(int, input().split()))
+-j = a_[0]
+-b = [j]
+-ex = 1
+-ask = [-1, -1]
+-while len(b) < n:
+-    print(len(b),n)
+-    print(j)
+-    j = a_[j-1]
+-    print(j)
+-    print(b)
+-    if len(b) < n and j not in b:
+-        b.append(j)
+-    elif len(b) < n and j in b:
+-        print(b,"k")
+-        if ex:
+-            print(ex)
+-            for w in range(1, n+1):
+-                print(w)
+-                if w not in a_:
+-                    b.append(w)
+-                    ask = [a_.index(j) + 1, w]
+-                    a_[a_.index(j)]=w
+-                    j = a_[w - 1]
+-                    ex = 0
+-                    print(w,ask,a_,j,ex)
+-                elif a_.count(w) > 1 and w != j:
+-                    ask = [-1, -1]
+-                    break
+-                else:
+-                    continue
+-        else:
+-            ask = [-1, -1]
+-            break
+-    else:
+-        break
+-
+-print(ask)
+-
+-# 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 1 1
+Index: chernovik.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chernovik.py b/chernovik.py
+deleted file mode 100644
+--- a/chernovik.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,48 +0,0 @@
+-# # one_str = list(map(int, input().split()))
+-# # two_str = list(map(int, input().split()))
+-# # my_str = []
+-# # if sum(two_str) <= one_str[0] * 9:
+-# #     my_str = sorted(two_str)
+-# #     for i in range(one_str[1]):
+-# #         my_str[i] = 9
+-# # elif sum(two_str) > one_str[0] * 9:
+-# #     my_str = sorted(two_str, reverse=True)
+-# #     my_len=len(str(my_str[0]))
+-# #     for c in range(my_len):
+-# #         if one_str[1]:
+-# #             t = sorted([])
+-# #             for x, b in enumerate(my_str):
+-# #                 if len(str(b)) >= my_len - c:
+-# #                     t.append([int(str(b)[-my_len + c]), x])
+-# #             for s in t:
+-# #                 if str(my_str[s[1]])[-my_len + c] != '9':
+-# #                     my_str[s[1]] += (9-int(str(my_str[s[1]])[-my_len + c]))*(10**(my_len-c-1))
+-# #                     one_str[1] -= 1
+-# # print(sum(my_str) - sum(two_str) if my_str else 0)
+-# import random
+-# from typing import List, Any
+-#
+-# h: list[Any]=[]
+-# i:int=0
+-# while 1000 > len(h):
+-#     i=0
+-#
+-#     i=i + random.randrange(10) ** random.randrange(10)
+-#     print(i)
+-#     h.append(i)
+-# print(' '.join([str(i) for i in h]))
+-import random
+-
+-
+-#
+-# print(' '.join([str(i) for i in h]))
+-n=[]
+-i=1
+-while len(n)<1000: n.append(1+2*i); i+=1; n.append(2+2*i)
+-e=[]
+-print(len(n))
+-print(' '.join([str(i) for i in n]))
+-
+-f=1000
+-while len(e)<1000: h=n[random.randrange(f)];e.append(h);n.remove(h); f-=1
+-print(' '.join([str(i) for i in n]))
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/profiles_settings.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: eight.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/eight.py b/eight.py
+deleted file mode 100644
+--- a/eight.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,38 +0,0 @@
+-# Тинькофф котест – задание №8
+-# Миша сидел в переговорке и решил нарисовать ее план на листке бумаги. Когда он закончил рисовать план переговорки,
+-# он положил лист с планом на пол переговорки. Теперь ему стало интересно: а есть ли на плане точка,
+-# которая лежит ровно на том месте пола, за которое она отвечает?
+-# Формат входных данных
+-# Переговорка и ее план имеют форму прямоугольника. Первая строка входного файла содержит два вещественных числа:
+-# координаты переговорки (1≤X≤1000,1≤Y≤1000). Координаты углов переговорки равны (0,0), (X,0), (X,Y), (0,Y).
+-# Во второй строке файла даются восемь вещественных чисел, описывающих положение углов плана переговорки.
+-# Сначала вводятся координаты того угла плана,
+-# который соответствует углу переговорки с координатами (0,0) затем — (X,0), (X,Y), (0,Y).
+-# Гарантируется, что входные данные корректны, то есть план является прямоугольником,
+-# линейные размеры которого соответствуют размерам переговорки, а также он не выходит за границы перегородки.
+-# Все числа во входном файле вещественные, заданы с точностью 5 знаков после точки.
+-# План выполнен в масштабе не менее  0001 и строго менее 1.
+-# Формат выходных данных
+-# Выведите два вещественных числа — координаты неподвижной точки в координатах переговорки.
+-# Выводить число нужно с точностью не менее четырех знаков после запятой.
+-import sympy
+-import sympy as sp
+-from sympy import Eq, solveset
+-
+-
+-def eight(one_string, two_string):
+-    x = one_string[0]
+-    y = one_string[1]
+-    x1 = (two_string[2] - two_string[0]) / x
+-    y1 = (two_string[7] - two_string[1]) / y
+-    dot_x = sp.symbols('dot_x')
+-    ask_x = Eq(dot_x / x1 - dot_x, two_string[0] / x1)
+-    dot_y = sp.symbols('dot_y')
+-    ask_y = Eq(dot_y / y1 - dot_y, two_string[1] / y1)
+-    x = [float(i) for i in solveset(ask_x, domain=sympy.Reals)]
+-    y = [float(i) for i in solveset(ask_y, domain=sympy.Reals)]
+-    return x[0], y[0]  # (2.5, 2.0833333333333335)
+-
+-
+-# print(eight(one_string=[10, 5],
+-#             two_string=[3.0, 2.5, 1.0, 2.5, 1.0, 1.5, 3.0, 1.5]))
+Index: seven.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/seven.py b/seven.py
+deleted file mode 100644
+--- a/seven.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,46 +0,0 @@
+-n = int(input())
+-a_index = list(map(int, input().split()))
+-
+-
+-def recursion(bad_=[], ask=[-1, -1], ex=1,
+-       rec=n, ind=a_index[0]):
+-    rec -= 1
+-    erot=[i for i in range(1, n + 1) if i not in a_index]
+-    sk=[ind, a_index[ind - 1]]
+-    w=[i for i in range(1, n + 1) if i not in a_index][0]
+-    if a_index[ind - 1] in bad_ and rec <= 0:
+-        if erot:
+-            a_index[ind - 1] = w
+-            ask = sk
+-            rec = n - 1
+-            bad_ = []
+-            ex -= 1
+-            print(ask)
+-            print(bad_,2)
+-            return recursion(bad_, ask, ex, rec, ind=a_index[ind - 1])
+-        else:
+-            return ask,1
+-    elif a_index[ind - 1] in bad_ and ex > 0:
+-        if erot:
+-            a_index[ind - 1] = w
+-            ask = sk
+-            rec = n
+-            bad_ = []
+-            ex -= 1
+-            print(ask)
+-            print(bad_)
+-            return recursion(bad_, ask, ex, rec, ind=a_index[ind - 1])
+-    elif a_index[ind - 1] in bad_ and ex <= 0:
+-        ask = [-1, -1]
+-        return ask,2
+-    bad_.append(a_index[ind - 1])
+-    print(a_index)
+-    print(a_index[ind-1])
+-    print(bad_,3)
+-    return recursion(bad_, ask, ex, rec, ind=a_index[ind - 1])
+-
+-
+-
+-print(recursion())
+-
+-# 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 1 1
+Index: nine_.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/nine_.py b/nine_.py
+deleted file mode 100644
+--- a/nine_.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,48 +0,0 @@
+-n_strigs = list(map(int, input().split()))
+-p_list = n_strigs[:]
+-el = 0
+-shots = []
+-hundreds = []
+-tens = []
+-for i in sorted(n_strigs, reverse=True):
+-    if i >= 100:
+-        el += 1
+-        shots.append(p_list.index(i))
+-        p_list[p_list.index(i)] = i * 0
+-    elif i < 100 and el > 0:
+-        shots.append(p_list.index(i))
+-        p_list[p_list.index(i)] = i * 0
+-        el -= 1
+-    else:
+-        break
+-
+-shots.sort()
+-new_shots = []
+-for g in shots:
+-    new_shots.append(n_strigs[g])
+-    if n_strigs[g] >= 100:
+-        hundreds.append(n_strigs[g])
+-    elif n_strigs[g] < 100:
+-        tens.append(n_strigs[g])
+-
+-minus = 0
+-
+-for m in new_shots:
+-    if m < 100 and m in tens:
+-        tens.remove(m)
+-    elif m < 100 and m not in tens:
+-        continue
+-    elif m in hundreds and sum(hundreds[hundreds.index(m) + 1:]) <= sum(tens):
+-        if tens:
+-            minus += max(tens)
+-            tens.remove(max(tens))
+-        hundreds.remove(m)
+-    elif m in hundreds and sum(hundreds[hundreds.index(m) + 1:]) > sum(tens):
+-        minus += max(hundreds)
+-        hundreds.remove(m)
+-        hundreds.remove(max(hundreds) if hundreds else None)
+-    else:
+-        continue
+-
+-result = sum(n_strigs) - minus
+-print(result)
+Index: psevdo_six.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/psevdo_six.py b/psevdo_six.py
+deleted file mode 100644
+--- a/psevdo_six.py	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,38 +0,0 @@
+-one_string = int(input())
+-two_string = list(map(int, input().split()))
+-list_i = []
+-list_j = []
+-no=[]
+-ch=[]
+-i=-1
+-j=-1
+-if one_string%2==0:
+-    for c, u in enumerate(two_string, start=1):
+-        if c%2!=0:
+-            if u%2!=0:
+-                no.append(c)
+-            elif u%2==0:
+-                list_i.append(c)
+-        elif c%2==0:
+-            if u%2==0:
+-                ch.append(c)
+-            elif u%2!=0:
+-                list_j.append(c)
+-if len(no)==len(ch):
+-    if (len(list_j)==1 and len(list_i)==1):
+-        i=list_i[0]
+-        j=list_j[0]
+-    elif len(no)>2 and len(list_j)==len(list_i):
+-        i=1
+-        j=3
+-else:
+-    i=-1
+-    j=-1
+-print(i,j)
+-
+-print(no)
+-print(ch)
+-print(list_i)
+-print(list_j)
+-
+-# 3 6 5 8 7 10 9 11 11 14 13 16 15 18 17 20 19 22 21 24 23 26 25 28 27 30 29 32 31 34 33 36 35 38 37 40 39 42 41 44 43 46 45 48 47 50 49 52 51 54 53 56 55 58 57 60 59 62 61 64 63 66 65 68 67 70 69 72 71 74 73 76 75 78 77 80 79 82 81 84 83 86 85 88 87 90 89 92 91 94 93 96 95 98 97 100 99 102 101 104 103 106 105 108 107 110 109 112 111 114 113 116 115 118 117 120 119 122 121 124 123 126 125 128 127 130 129 132 131 134 133 136 135 138 137 140 139 142 141 144 143 146 145 148 147 150 149 152 151 154 153 156 155 158 157 160 159 162 161 164 163 166 165 168 167 170 169 172 171 174 173 176 175 178 177 180 179 182 181 184 183 186 185 188 187 190 189 192 191 194 193 196 195 198 197 200 199 202 201 204 203 206 205 208 207 210 209 212 211 214 213 216 215 218 217 220 219 222 221 224 223 226 225 228 227 230 229 232 231 234 233 236 235 238 237 240 239 242 241 244 243 246 245 248 247 250 249 252 251 254 253 256 255 258 257 260 259 262 261 264 263 266 265 268 267 270 269 272 271 274 273 276 275 278 277 280 279 282 281 284 283 286 285 288 287 290 289 292 291 294 293 296 295 298 297 300 299 302 301 304 303 306 305 308 307 310 309 312 311 314 313 316 315 318 317 320 319 322 321 324 323 326 325 328 327 330 329 332 331 334 333 336 335 338 337 340 339 342 341 344 343 346 345 348 347 350 349 352 351 354 353 356 355 358 357 360 359 362 361 364 363 366 365 368 367 370 369 372 371 374 373 376 375 378 377 380 379 382 381 384 383 386 385 388 387 390 389 392 391 394 393 396 395 398 397 400 399 402 401 404 403 406 405 408 407 410 409 412 411 414 413 416 415 418 417 420 419 422 421 424 423 426 425 428 427 430 429 432 431 434 433 436 435 438 437 440 439 442 441 444 443 446 445 448 447 450 449 452 451 454 453 456 455 458 457 460 459 462 461 464 463 466 465 468 467 470 469 472 471 474 473 476 475 478 477 480 479 482 481 484 483 486 485 488 487 490 489 492 491 494 493 496 495 498 497 500 499 502 501 504 503 506 505 508 507 510 509 512 511 514 513 516 515 518 517 520 519 522 521 524 523 526 525 528 527 530 529 532 531 534 533 536 535 538 537 540 539 542 541 544 543 546 545 548 547 550 549 552 551 554 553 556 555 558 557 560 559 562 561 564 563 566 565 568 567 570 569 572 571 574 573 576 575 578 577 580 579 582 581 584 583 586 585 588 587 590 589 592 591 594 593 596 595 598 597 600 599 602 601 604 603 606 605 608 607 610 609 612 611 614 613 616 615 618 617 620 619 622 621 624 623 626 625 628 627 630 629 632 631 634 633 636 635 638 637 640 639 642 641 644 643 646 645 648 647 650 649 652 651 654 653 656 655 658 657 660 659 662 661 664 663 666 665 668 667 670 669 672 671 674 673 676 675 678 677 680 679 682 681 684 683 686 685 688 687 690 689 692 691 694 693 696 695 698 697 700 699 702 701 704 703 706 705 708 707 710 709 712 711 714 713 716 715 718 717 720 719 722 721 724 723 726 725 728 727 730 729 732 731 734 733 736 735 738 737 740 739 742 741 744 743 746 745 748 747 750 749 752 751 754 753 756 755 758 757 760 759 762 761 764 763 766 765 768 767 770 769 772 771 774 773 776 775 778 777 780 779 782 781 784 783 786 785 788 787 790 789 792 791 794 793 796 795 798 797 800 799 802 801 804 803 806 805 808 807 810 809 812 811 814 813 816 815 818 817 820 819 822 821 824 823 826 825 828 827 830 829 832 831 834 833 836 835 838 837 840 839 842 841 844 843 846 845 848 847 850 849 852 851 854 853 856 855 858 857 860 859 862 861 864 863 866 865 868 867 870 869 872 871 874 873 876 875 878 877 880 879 882 881 884 883 886 885 888 887 890 889 892 891 894 893 896 895 898 897 900 899 902 901 904 903 906 905 908 907 910 909 912 911 914 913 916 915 918 917 920 919 922 921 924 923 926 925 928 927 930 929 932 931 934 933 936 935 938 937 940 939 942 941 944 943 946 945 948 947 950 949 952 951 954 953 956 955 958 957 960 959 962 961 964 963 966 965 968 967 970 969 972 971 974 973 976 975 978 977 980 979 982 981 984 983 986 985 988 987 990 989 992 991 994 993 996 995 998 998 1000 999 1002 1001 1004
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,259 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject9.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Unittests.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Unittests.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/eight.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/five.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/four.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fr.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/nine_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/one_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seven.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/seven_one.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/six.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ten.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tests/test_eight.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tests/test_nine.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/three.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/tvelve_.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/two.py" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProblemsViewState">
+-    <option name="groupByToolId" value="true" />
+-    <option name="selectedTabId" value="CurrentFile" />
+-    <option name="showPreview" value="true" />
+-    <option name="sortByName" value="true" />
+-  </component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 7
+-}</component>
+-  <component name="ProjectId" id="2f2jKiM4voelibFhzBa747M6pcM" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python tests.Python tests in test_eight.py.executor": "Run",
+-    "Python tests.Unitest.executor": "Debug",
+-    "Python tests.Unitests.executor": "Run",
+-    "Python tests.Unittests for .executor": "Run",
+-    "Python tests.Unittests in /.executor": "Run",
+-    "Python tests.Unittests.executor": "Run",
+-    "Python._seven.executor": "Run",
+-    "Python.chernovik.executor": "Run",
+-    "Python.eight.executor": "Run",
+-    "Python.five.executor": "Run",
+-    "Python.four.executor": "Run",
+-    "Python.fr.executor": "Run",
+-    "Python.kvazi_six.executor": "Run",
+-    "Python.nine_.executor": "Run",
+-    "Python.one_.executor": "Run",
+-    "Python.psevdo_six.executor": "Run",
+-    "Python.seven.executor": "Run",
+-    "Python.seven2.executor": "Run",
+-    "Python.seven_one.executor": "Run",
+-    "Python.six.executor": "Run",
+-    "Python.ten.executor": "Run",
+-    "Python.three.executor": "Run",
+-    "Python.tvelve_.executor": "Run",
+-    "Python.two.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "deletionFromPopupRequiresConfirmation": "false",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "/Users/ivanlysikov/PycharmProjects/pythonProject9"
+-  }
+-}]]></component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$" />
+-    </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$" />
+-    </key>
+-  </component>
+-  <component name="RunManager">
+-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+-      <module name="pythonProject9" />
+-      <option name="ENV_FILES" value="" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="SDK_NAME" value="Python 3.11 (pythonProject9)" />
+-      <option name="WORKING_DIRECTORY" value="" />
+-      <option name="IS_MODULE_SDK" value="false" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="net.ashald.envfile">
+-        <option name="IS_ENABLED" value="false" />
+-        <option name="IS_SUBST" value="false" />
+-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+-        <ENTRIES>
+-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+-        </ENTRIES>
+-      </EXTENSION>
+-      <option name="SCRIPT_NAME" value="" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="nine_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="pythonProject9" />
+-      <option name="ENV_FILES" value="" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nine_.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="one_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-      <module name="pythonProject9" />
+-      <option name="ENV_FILES" value="" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <envs>
+-        <env name="PYTHONUNBUFFERED" value="1" />
+-      </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="net.ashald.envfile">
+-        <option name="IS_ENABLED" value="false" />
+-        <option name="IS_SUBST" value="false" />
+-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+-        <ENTRIES>
+-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+-        </ENTRIES>
+-      </EXTENSION>
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/one_.py" />
+-      <option name="PARAMETERS" value="" />
+-      <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
+-      <option name="MODULE_MODE" value="false" />
+-      <option name="REDIRECT_INPUT" value="false" />
+-      <option name="INPUT_FILE" value="" />
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="Unittests" type="tests" factoryName="Autodetect">
+-      <module name="pythonProject9" />
+-      <option name="ENV_FILES" value="" />
+-      <option name="INTERPRETER_OPTIONS" value="" />
+-      <option name="PARENT_ENVS" value="true" />
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+-      <option name="IS_MODULE_SDK" value="true" />
+-      <option name="ADD_CONTENT_ROOTS" value="true" />
+-      <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <EXTENSION ID="net.ashald.envfile">
+-        <option name="IS_ENABLED" value="false" />
+-        <option name="IS_SUBST" value="false" />
+-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+-        <ENTRIES>
+-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+-        </ENTRIES>
+-      </EXTENSION>
+-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+-      <method v="2" />
+-    </configuration>
+-    <list>
+-      <item itemvalue="Python.nine_" />
+-      <item itemvalue="Python.one_" />
+-      <item itemvalue="Python tests.Unittests" />
+-    </list>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Python.nine_" />
+-        <item itemvalue="Python.one_" />
+-      </list>
+-    </recent_temporary>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="" />
+-      <created>1713006006257</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1713006006257</updated>
+-    </task>
+-    <servers />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/eight.py</url>
+-          <line>23</line>
+-          <option name="timeStamp" value="2" />
+-        </line-breakpoint>
+-      </breakpoints>
+-      <default-breakpoints>
+-        <breakpoint type="python-exception">
+-          <properties notifyOnTerminate="true" exception="BaseException">
+-            <option name="notifyOnTerminate" value="true" />
+-          </properties>
+-        </breakpoint>
+-      </default-breakpoints>
+-    </breakpoint-manager>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/runConfigurations/_template__of_Unittests.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/_template__of_Unittests.xml b/.idea/runConfigurations/_template__of_Unittests.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations/_template__of_Unittests.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,29 +0,0 @@
+-<component name="ProjectRunConfigurationManager">
+-  <configuration default="true" type="tests" factoryName="Unittests" singleton="false">
+-    <module name="pythonProject9" />
+-    <option name="ENV_FILES" value="" />
+-    <option name="INTERPRETER_OPTIONS" value="" />
+-    <option name="PARENT_ENVS" value="true" />
+-    <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+-    <option name="SDK_NAME" value="Python 3.11 (pythonProject9)" />
+-    <option name="WORKING_DIRECTORY" value="" />
+-    <option name="IS_MODULE_SDK" value="false" />
+-    <option name="ADD_CONTENT_ROOTS" value="true" />
+-    <option name="ADD_SOURCE_ROOTS" value="true" />
+-    <EXTENSION ID="net.ashald.envfile">
+-      <option name="IS_ENABLED" value="false" />
+-      <option name="IS_SUBST" value="false" />
+-      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+-      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+-      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+-      <ENTRIES>
+-        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+-      </ENTRIES>
+-    </EXTENSION>
+-    <option name="_new_pattern" value="&quot;&quot;" />
+-    <option name="_new_additionalArguments" value="&quot;&quot;" />
+-    <option name="_new_target" value="&quot;&quot;" />
+-    <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+-    <method v="2" />
+-  </configuration>
+-</component>
+\ No newline at end of file
+Index: .idea/runConfigurations/Unittests.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/Unittests.xml b/.idea/runConfigurations/Unittests.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations/Unittests.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,29 +0,0 @@
+-<component name="ProjectRunConfigurationManager">
+-  <configuration default="false" name="Unittests" type="tests" factoryName="Unittests" editBeforeRun="true" focusToolWindowBeforeRun="true" singleton="false" nameIsGenerated="true">
+-    <module name="pythonProject9" />
+-    <option name="ENV_FILES" value="" />
+-    <option name="INTERPRETER_OPTIONS" value="" />
+-    <option name="PARENT_ENVS" value="true" />
+-    <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+-    <option name="SDK_NAME" value="Python 3.11 (pythonProject9)" />
+-    <option name="WORKING_DIRECTORY" value="" />
+-    <option name="IS_MODULE_SDK" value="false" />
+-    <option name="ADD_CONTENT_ROOTS" value="true" />
+-    <option name="ADD_SOURCE_ROOTS" value="true" />
+-    <EXTENSION ID="net.ashald.envfile">
+-      <option name="IS_ENABLED" value="false" />
+-      <option name="IS_SUBST" value="false" />
+-      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+-      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+-      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+-      <ENTRIES>
+-        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+-      </ENTRIES>
+-    </EXTENSION>
+-    <option name="_new_pattern" value="&quot;&quot;" />
+-    <option name="_new_additionalArguments" value="&quot;&quot;" />
+-    <option name="_new_target" value="&quot;&quot;" />
+-    <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+-    <method v="2" />
+-  </configuration>
+-</component>
+\ No newline at end of file
+Index: .idea/pythonProject9.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/pythonProject9.iml b/.idea/pythonProject9.iml
+deleted file mode 100644
+--- a/.idea/pythonProject9.iml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
++++ /dev/null	(revision 058b3576ad6a6ded4384f4a785f61222d3ec4b0b)
+@@ -1,44 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <profile version="1.0">
+-    <option name="myName" value="Project Default" />
+-    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="myValues">
+-        <value>
+-          <list size="9">
+-            <item index="0" class="java.lang.String" itemvalue="nobr" />
+-            <item index="1" class="java.lang.String" itemvalue="noembed" />
+-            <item index="2" class="java.lang.String" itemvalue="comment" />
+-            <item index="3" class="java.lang.String" itemvalue="noscript" />
+-            <item index="4" class="java.lang.String" itemvalue="embed" />
+-            <item index="5" class="java.lang.String" itemvalue="script" />
+-            <item index="6" class="java.lang.String" itemvalue="from" />
+-            <item index="7" class="java.lang.String" itemvalue="head" />
+-            <item index="8" class="java.lang.String" itemvalue="lang" />
+-          </list>
+-        </value>
+-      </option>
+-      <option name="myCustomValuesEnabled" value="true" />
+-    </inspection_tool>
+-    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+-      <option name="ignoredErrors">
+-        <list>
+-          <option value="E101" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+-      <option name="ignoredNames">
+-        <list>
+-          <option value="id" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="ignoredIdentifiers">
+-        <list>
+-          <option value="config.DB_NAME" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-  </profile>
+-</component>
+\ No newline at end of file
+Index: yandex_four_final.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/yandex_four_final.py b/yandex_four_final.py
+new file mode 100644
+--- /dev/null	
++++ b/yandex_four_final.py	
+@@ -0,0 +1,83 @@
++import random
++
++
++def gen():
++    x=random.randrange(1,99)
++    y=random.randrange(1,99)
++    print(sorted([x,y]))
++    return f"{x} {y}" if sorted([x,y]) not in mel and x!=y else gen()
++import copy
++
++tela = [100,98]#list(map(int, input().split()))
++mel = []
++for z in range(tela[1]):
++    meta = list(map(int,gen().split()))
++    print(meta)
++    mel.append(sorted(meta))
++gero = [i for i in range(1, tela[0] + 1)]
++dic = {}
++answer = []
++print(sorted(mel))
++print(sorted([i[0] for i in mel]+[h[1] for h in mel]))
++def remove(dic, q, x):
++    one = 0
++    for j in gero:
++        if (sorted([j,x]) not in mel and sorted([q,j]) not in mel) and (j!=q and j!=x):
++            one=j
++            break
++    two = 0
++    for w in gero:
++        if w!=one:
++            if (sorted([w,x]) not in mel and sorted([q,w]) not in mel) and (w!=x and q!=w):
++                two=w
++            break
++    answer.append([x, one])
++    mel.append([x, one])
++    memory = dic[x]
++    dic[x] = dic[one]
++    dic[one] = memory
++    answer.append([q, two])
++    mel.append([q, two])
++    memory = dic[q]
++    dic[q] = dic[two]
++    dic[two] = memory
++    answer.append([q,one])
++    mel.append([q,one])
++    memory = dic[q]
++    dic[q] = dic[one]
++    dic[one] = memory
++    answer.append([x,two])
++    mel.append([x,two])
++    memory = dic[x]
++    dic[x] = dic[two]
++    dic[two] = memory
++
++
++for d in gero:
++    dic[d] = str(d)
++dic_cop=copy.deepcopy(dic)
++for m in mel:
++    dic[m[0]] = str(m[1])
++    dic[m[1]] = str(m[0])
++
++while dic_cop!=dic:
++    for x in dic:
++        if dic[x] != str(x):
++            q = int(dic[x])
++            if (dic[q] == str(x) and dic[x] == str(q)) and sorted([x,q]) not in mel:
++                dic[q]=str(q)
++                dic[x]=str(x)
++                answer.append(sorted([x,q]))
++            elif dic[q] == str(x) and sorted([x,q]) in mel:
++                remove(dic, q, x)
++            elif dic[q] != str(x):
++                for v in dic:
++                    if dic[v] == str(x):
++                        q = v
++                        remove(dic, q, x)
++                        break
++print(dic)
++for an in answer:
++    if an:
++        print(an[0],an[1])
++
