@@ -1,7 +1,7 @@
 Задание №7
 ===========
 
-[](https://github.com/Ilysikov/TinkoffContest/blob/main/photo/ex7.jpg)
+![](https://github.com/Ilysikov/TinkoffContest/blob/main/photo/ex7.jpg)
 
 Мое решение хранится в файле my_solving.py 
 -------------------------------------------
