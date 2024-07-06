@@ -4,39 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Unittests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/_template__of_Unittests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/four.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nine_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seven.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seven_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_eight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_nine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/three.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tvelve_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two.py" afterDir="false" />
-    </list>
+    <list default="true" id="9717e81d-8a99-492a-84cc-ca67f2c00bab" name="Changes" comment="ph" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="groupByToolId" value="true" />
@@ -53,40 +36,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_eight.py.executor": "Run",
-    "Python tests.Unitest.executor": "Debug",
-    "Python tests.Unitests.executor": "Run",
-    "Python tests.Unittests for .executor": "Run",
-    "Python tests.Unittests in /.executor": "Run",
-    "Python tests.Unittests.executor": "Run",
-    "Python._seven.executor": "Run",
-    "Python.chernovik.executor": "Run",
-    "Python.eight.executor": "Run",
-    "Python.five.executor": "Run",
-    "Python.four.executor": "Run",
-    "Python.fr.executor": "Run",
-    "Python.kvazi_six.executor": "Run",
-    "Python.nine_.executor": "Run",
-    "Python.one_.executor": "Run",
-    "Python.psevdo_six.executor": "Run",
-    "Python.seven.executor": "Run",
-    "Python.seven2.executor": "Run",
-    "Python.seven_one.executor": "Run",
-    "Python.six.executor": "Run",
-    "Python.ten.executor": "Run",
-    "Python.three.executor": "Run",
-    "Python.tvelve_.executor": "Run",
-    "Python.two.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ivanlysikov/PycharmProjects/pythonProject9"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_eight.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unitest.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Unitests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests for .executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests in /.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests.executor&quot;: &quot;Run&quot;,
+    &quot;Python._seven.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chernovik.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.five.executor&quot;: &quot;Run&quot;,
+    &quot;Python.four.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kvazi_six.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nine_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.psevdo_six.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seven.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seven2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seven_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.six.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ten.executor&quot;: &quot;Run&quot;,
+    &quot;Python.three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tvelve_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.two.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ivanlysikov/PycharmProjects/pythonProject9&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -95,7 +78,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.nine_">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonProject9" />
       <option name="ENV_FILES" value="" />
@@ -236,7 +219,43 @@
       <option name="presentableId" value="Default" />
       <updated>1713006006257</updated>
     </task>
+    <task id="LOCAL-00001" summary="ph">
+      <option name="closed" value="true" />
+      <created>1720255883237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720255883237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ph" />
+    <option name="LAST_COMMIT_MESSAGE" value="ph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
